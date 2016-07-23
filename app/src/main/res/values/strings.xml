@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cal_month_format">MMMM yyyy</string>
+
+    <string name="shuttlebus">KIT shuttle bus</string>
+    <string name="ogigaoka">Ogigaoka</string>
+    <string name="yatsukaho">Yatsukaho</string>
+    <string name="all">Timetable</string>
+    <string name="schedule">Schedule</string>
+    <string name="explain_buildno">号館(Goukan)&#8230; Building No.</string>
+    <string name="weekday">normal schedule</string>
+    <string name="saturday">saturday schedule</string>
+    <string name="sunday">Service stopped</string>
+    <string name="busid">ID</string>
+    <string name="closed">Closed today.</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_alarm">Set alarm.</string>
+    <string name="departure">departure</string>
+    <string name="departure_soon">Departure soon</string>
+    <string name="min_after"> min after</string>
+    <string name="a_is_b">%1$s %2$s.</string>
+    <string name="setting">Setting</string>
+    <string name="alarm_departure">%1$s bus departure</string>
+
+    <string name="point">Point</string>
+    <string name="general">General</string>
+    <string name="alarm">Alarm</string>
+    <string-array name="alarm_time_entries">
+        <item>5 month ago</item>
+        <item>10 month ago</item>
+        <item>15 month ago</item>
+    </string-array>
+    <string name="debug">Debug</string>
+    <string name="usecsv">Use custom CSV</string>
+    <string name="timetable_csv">Timetable CSV</string>
+    <string name="schedule_csv">Schedule CSV</string>
+    <string name="reload_csv">Reload CSV</string>
+
+    <string name="mail_subject">KITBUS app NOT completed to update csv</string>
+    <string name="mail_body">Please fix CSV data.</string>
+    <string name="do_send">Send feedback</string>
+    <string name="donot_send">Cancel</string>
+
+    <string name="error_debug">CSV not found. Disabled custom csv mode.</string>
+    <string name="error_update">Error. Please reopen app.</string>
+    <string name="error_csv">CSV parse error. Please send feedback to KIT.</string>
+</resources>

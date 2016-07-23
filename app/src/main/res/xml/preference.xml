@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/point">
+        <ListPreference
+            android:key="point_yatsukaho"
+            android:title="@string/yatsukaho" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general">
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/alarm_time_entries"
+            android:entryValues="@array/alarm_time_entryvalues"
+            android:key="alarm_time"
+            android:summary="%s"
+            android:title="@string/alarm" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/debug">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="debug_csv"
+            android:title="@string/usecsv" />
+        <EditTextPreference
+            android:defaultValue="http://"
+            android:dependency="debug_csv"
+            android:key="debug_timetable_csv"
+            android:title="@string/timetable_csv" />
+        <EditTextPreference
+            android:defaultValue="http://"
+            android:dependency="debug_csv"
+            android:key="debug_schedule_csv"
+            android:title="@string/schedule_csv" />
+        <PreferenceScreen
+            android:key="debug_reset_csv"
+            android:title="@string/reload_csv" />
+    </PreferenceCategory>
+</PreferenceScreen>

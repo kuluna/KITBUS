@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KITBUS</string>
+    <string name="timetable_url">http://www.kanazawa-it.ac.jp/shuttlebus/timetable.csv</string>
+    <string name="schedule_url">http://www.kanazawa-it.ac.jp/shuttlebus/servicetable.csv</string>
+    <string name="mailto">mailto:koho@kanazawa-it.ac.jp</string>
+
+    <string-array name="alarm_time_entryvalues">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>

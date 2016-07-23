@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="calendar_tilesize">36dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appicon_background">#9bb36b</color>
+    <color name="appicon_deep">#6f804d</color>
+    <color name="kit_blue">#004e89</color>
+    <color name="kit_red">#d83846</color>
+    <color name="kit_green">#008368</color>
+    <color name="background_otoy">#dd9d</color>
+    <color name="background_ytoo">#d9dd</color>
+    <color name="background_timetable">#dd9bb36b</color>
+    <color name="gray">#6ccc</color>
+    <color name="table_gray">#eee</color>
+</resources>

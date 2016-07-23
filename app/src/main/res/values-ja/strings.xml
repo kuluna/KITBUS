@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cal_month_format">yyyy年MMMM</string>
+
+    <string name="shuttlebus">のKITシャトルバス</string>
+    <string name="ogigaoka">扇ヶ丘</string>
+    <string name="yatsukaho">八束穂</string>
+    <string name="all">時刻表</string>
+    <string name="schedule">スケジュール</string>
+    <string name="explain_buildno"> </string>
+    <string name="weekday">平日ダイヤ</string>
+    <string name="saturday">土曜ダイヤ</string>
+    <string name="sunday">運休</string>
+    <string name="busid">便名</string>
+    <string name="closed">本日のシャトルバスはすべて終了しました。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="set_alarm">アラームをセットしました。</string>
+    <string name="departure">出発</string>
+    <string name="departure_soon">もうすぐ出発時間です</string>
+    <string name="min_after">分後</string>
+    <string name="a_is_b">%1$sは%2$sです</string>
+    <string name="setting">設定</string>
+    <string name="alarm_departure">%1$s 出発のKITシャトルバス</string>
+
+    <string name="point">乗車場所</string>
+    <string name="general">一般</string>
+    <string name="alarm">アラーム</string>
+    <string-array name="alarm_time_entries">
+        <item>5分前</item>
+        <item>10分前</item>
+        <item>15分前</item>
+    </string-array>
+    <string name="debug">運用者向け</string>
+    <string name="usecsv">カスタムCSVを読み込む</string>
+    <string name="timetable_csv">時刻表CSV</string>
+    <string name="schedule_csv">スケジュールCSV</string>
+    <string name="reload_csv">CSVを再読み込み</string>
+
+    <string name="mail_subject">KITBUSアプリでCSVの読み込みができません</string>
+    <string name="mail_body">CSVの修正をお願いします。</string>
+    <string name="do_send">問い合わせる</string>
+    <string name="donot_send">問い合わせない</string>
+
+    <string name="error_debug">CSVが見つかりません。\nカスタムCSVモードを解除しました。</string>
+    <string name="error_update">通信環境の良いところでアプリを起動してください。</string>
+    <string name="error_csv">時刻表データを読み込む時にエラーが発生しました。\n時刻表データは大学の広報課が管理しています。\n広報課に問い合わせますか?</string>
+</resources>
